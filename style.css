@@ -1,0 +1,199 @@
+.nav{
+ display: flex;
+background: #0c0000;
+height: 100%;
+width: 100%;
+justify-content: flex-end;
+}
+.nav p a{
+    list-style: none;
+    text-decoration: none;
+    color: #ece1ee;
+    margin: 0 12px;
+    font-weight: 400;
+    transition: .5s;
+    font-size: 18px;
+}
+.nav p a:hover{
+    color: #e0435e;
+}
+
+.cabeçalho {
+    background: #e0435e;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;    
+}
+.redes {
+    list-style: none;
+    align-self:flex-end;
+    color:#e0435e  
+    
+}
+
+.titulo_principal {
+    display: block;
+    font-size: 32px;
+    text-transform: uppercase;
+    color:#43061e
+}
+
+.titulo_secundario {
+    font-size: 18px;
+    align-items: center;
+    color:#43061e    
+}
+
+.cabeçalho #imagen {
+    border-radius: 80px;
+    border-style: none;
+    box-sizing: border-box;
+
+} 
+.img_tex {
+    font-size: 20px;
+    color:#43061e
+}
+
+.biografia {
+    background: #ece1ee;
+    height: 100%;
+    width: 100%;
+    display:inline-block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    color:#43061e
+        
+   }
+   #Biografia {
+    font-size: 40px;
+  }
+
+.estudos {
+    background: #9f80a7;
+    height: 100%;
+    width: 100%;
+    display:inline-block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    font-size: math;
+    color:#43061e
+}
+
+#Estudos_e_objetivos {
+    font-size: 40px;
+    text-align: center;
+}
+
+.trabalho {
+    background: #43061e; 
+    height: 100%;
+    width: 100%;
+    display:inline-block;
+    font-size: 18px;
+    color:#ece1ee;
+}
+#Listagem_de_trabalhos {
+    font-size: 40px;
+    text-align: center;
+}
+#linkdrean {
+    color:#ece1ee;
+}
+
+#sud {
+    color:#ece1ee;
+}
+
+#asecon {
+    color:#ece1ee;
+}
+
+.img_trabalho {
+    display:inline-block;
+    width:  400px;
+    height: 250px;
+    overflow: scroll;
+    text-align: center;
+}
+
+.rodape{
+    background: #0c0000;
+    height: 100%;
+    width: 100%;
+    display:inline-block;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color:#ece1ee;
+}
+
+.form {
+    font-size: 18px;
+    width: fit-content;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    width: 100%;
+    max-width: 420px;
+}
+#nome, #email {
+    margin-top: 1px;
+    font-size: 18px;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 8px;
+}
+
+#comentario {
+    margin-top: 1px;
+    font-size: 18px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 30px;
+}
+#enviar {
+    background-color: #e0435e;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-top: 1px; 
+}
+
+
+#card {
+    border-radius: 8px;
+    box-shadow: 0 4px 12px #ffffff;
+    padding: 32px 40px 32px 32px;
+    margin-top: 50px;
+}
+
+.footer {
+    color: #0c0000;
+   }
+
+   @media screen and (min-width: 770px) {
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+   }
+    
