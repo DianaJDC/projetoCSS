@@ -1,71 +1,47 @@
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
     background-color: #0c0000;
 }
-
-#inicio{
-    color: #ece1ee;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
+#inicio {
+    list-style: none;
+    text-decoration: none;
+    color: #e0435e;
 }
 
-.form {
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 2em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    margin: 30px auto;
-    display: flex;
-    max-width: 500px;
+    color: #ece1ee;
+}
+
+label {
     display: inline-block;
-    justify-content: center;
-    color: #ece1ee;
-    
+    width: 90px;
 }
 
-#nome,
-#email {
-    background: #ffffff;
-    margin-top: 4px;
-    height: 30px;
+input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    padding: 8px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     border-radius: 10px;
+    border: 1px solid #999;
+    background-color: #ece1ee;
 }
 
-#comentario {
-    background: #ffffff;
-    margin-top: 1px;
-    font-size: 16px;
-    height: 20px;
-    border-radius: 10px;
-    border: 1px solid;
-    padding: 50px;
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+    background-color:#ece1ee;
 }
 
-#enviar {
+button {
+    text-align: center;
     background-color: #e0435e;
-    color: #ece1ee;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 25px;
-}
-
-
-#card {
-    border-radius: 10px;
-    box-shadow: 5px 5px 22px 12px #ffffff;
-    padding: 32px 32px 32px 32px;
-    margin-top: 10px;
-}
-
-@media screen and (min-width: 400px) {
-    body {
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content:center;
-    }
-
+    margin-left: 18em;
 }

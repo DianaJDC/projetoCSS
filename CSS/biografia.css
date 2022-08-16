@@ -18,3 +18,11 @@
     font-size: 40px;
     text-shadow: 3px 3px 2px #9f80a7;
 }
+
+#retornar {
+    list-style: none;
+    text-decoration: none;
+    color: #43061e;
+    font-size: 10px;
+    display: flex;
+}
