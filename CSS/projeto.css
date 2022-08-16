@@ -1,0 +1,32 @@
+.projeto {
+    background: #ece1ee;
+    height: 100%;
+    width: 100%;
+
+}
+
+.card {
+    display: inline-block;
+    justify-content: space-between;
+    margin: 50px 100px;
+    text-align: center;
+}
+
+.card {
+    height: 425px;
+    width: 225px;
+    border-radius: 4px;
+    background-color: rgb(255 255 255);
+    box-shadow: 0 1px 2px 0 rgba(0 0 0 / 12%);
+    overflow: hidden;
+}
+
+.card:hover {
+    box-shadow: 0 0 1px 1px rgba(0 0 0 / 7%), 0 10px 15px 0 rgba(0 0 0 / 10%);
+}
+
+.projeto_titu {
+    font-size: 40px;
+    text-align: center;
+    color: #43061e;
+}

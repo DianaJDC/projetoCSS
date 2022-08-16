@@ -1,0 +1,65 @@
+.trabalho {
+    background: #43061e;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    font-size: 18px;
+    color: #ece1ee;
+    padding: 30px;
+}
+
+#Listagem_de_trabalhos {
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 4px 4px 4px #e0435e
+}
+
+#linkdrean {
+    color: #ece1ee;
+    text-shadow: 2px 2px 3px #e0435e;
+}
+
+#sud {
+    color: #ece1ee;
+    text-shadow: 2px 2px 3px #e0435e;
+}
+
+#asecon {
+    color: #ece1ee;
+    text-shadow: 2px 2px 3px #e0435e;
+}
+
+.carousel-inner {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+.projeto {
+    background: #ece1ee;
+    height: 100%;
+    width: 100%;
+
+}
+
+.card {
+    display: inline-block;
+    justify-content: space-between;
+    margin: 50px 100px;
+    text-align: center;
+}
+
+.card {
+    height: 425px;
+    width: 225px;
+    border-radius: 4px;
+    background-color: rgb(255 255 255);
+    box-shadow: 0 1px 2px 0 rgba(0 0 0 / 12%);
+    overflow: hidden;
+}
+
+.card:hover {
+    box-shadow: 0 0 1px 1px rgba(0 0 0 / 7%), 0 10px 15px 0 rgba(0 0 0 / 10%);
+}

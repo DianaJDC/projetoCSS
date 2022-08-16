@@ -1,0 +1,24 @@
+.estudos {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #9f80a7;
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+    text-align: justify;
+    color: #43061e;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+#Estudos_e_objetivos {
+    font-size: 40px;
+    text-align: center;
+    color: #43061e;
+    text-shadow: 3px 3px 4px #ece1ee;
+}
+
+#p1,
+#p2,
+#p3 {
+    background-color: #ece1ee;
+}

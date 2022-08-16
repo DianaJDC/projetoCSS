@@ -1,0 +1,20 @@
+.biografia {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ece1ee;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    color: #43061e;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+#Biografia {
+    font-size: 40px;
+    text-shadow: 3px 3px 2px #9f80a7;
+}

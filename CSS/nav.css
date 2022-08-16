@@ -1,0 +1,21 @@
+.nav{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background: #0c0000;
+    height: 100%;
+    width: 100%;
+}
+.nav p a{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: #ece1ee;
+    margin: 0 12px;
+    font-weight: 600;
+    transition: .5s;
+    font-size: 18px;
+}
+.nav p a:hover{
+    color: #e0435e;
+}
