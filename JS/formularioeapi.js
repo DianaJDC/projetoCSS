@@ -30,14 +30,14 @@ form.addEventListener("submit", e=>{
 })
 /*API Whatssaph*/
 
-const evento = document.getElementById('enviar')
+const evento = document.getElementById('wspp')
 const enviarFormulario =() => {
-    let nome1 = document.getElementById('nome').value;
+    let nome = document.getElementById('nome').value;
     let email = document.getElementById('email').value;
-    let mensage1 = document.getElementById('comentario').value;  
-   ; 
+    let mensage = document.getElementById('comentario').value;  
+     
 let numero= 554384779410;
-var win= window.open(`https://wa.me/${numero}?text=Ola%20meu%20nome%20é%20${nome1}
-%20meu%20emai%20é%20${email}, Mensage:%20${mensage1}`,'_blank');       
+var win= window.open(`https://wa.me/${numero}?text=Ola%20meu%20nome%20é%20${nome}
+%20meu%20emai%20é%20${email}, Mensage:%20${mensage}`,'_blank');       
 }
 evento.addEventListener('click', enviarFormulario)
