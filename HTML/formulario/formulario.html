@@ -12,23 +12,23 @@
 <body>
   <a href="/HTML/index.html" id="inicio">Inicio</a>
   <form class="form" id="card" name="formulario">
-    <h2 id="Contato">Entre em contato:</h2><br>
+    <h2 id="Contato">Contato:</h2><br>
     <div>
       <label for="name">Nome:</label><br>
-      <input id="nome" type="text" name="nome" placeholder="Julia Morillo" required><br><br>
+      <input id="nome" type="text" name="nome" placeholder="Julia Morillo" autocomplete="off" ><br><br>
     </div>
     <div>
       <label for="email">E-mail:</label><br>
-      <input id="email" type="email" placeholder="juliamorillo11@gmail.com" required><br><br>
+      <input id="email" type="email" placeholder="juliamorillo11@gmail.com" autocomplete="off" ><br><br>
     </div>
     <div>
       <label for="note">Comentários:</label><br>
-      <textarea id="comentario" rows="4" cols="35" placeholder="O que deseja falar comigo?"></textarea>
+      <textarea id="comentario"  rows="6" cols="35" placeholder="O que deseja falar comigo?"></textarea>
     </div>
     <br><br>
-    <div class="button">
-      <button type="submit">Enviar</button>
-    </div>
+      <button id="enviar">Enviar</button>
+      <p class="mensage" id="mensage"></p>
+   
   </form>
 
   <script src="/JS/formulario.js"></script>

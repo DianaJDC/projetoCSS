@@ -1,7 +1,9 @@
 *{
     background-color: #0c0000;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #inicio {
+    font-size: 22px;
     list-style: none;
     text-decoration: none;
     color: #e0435e;
@@ -11,10 +13,16 @@ form {
     margin: 0 auto;
     width: 400px;
     padding: 2em;
-    border: 1px solid #CCC;
+    border: 1px solid #9f80a7;
     border-radius: 1em;
     font-family: Arial, Helvetica, sans-serif;
     color: #ece1ee;
+}
+
+#Contato{
+    font-size: 40px;
+    color: #9f80a7;
+    text-align: center;
 }
 
 label {
@@ -24,13 +32,14 @@ label {
 
 input, textarea {
     font: 1em sans-serif;
-    width: 300px;
+    width: 400px;
     padding: 8px;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     border-radius: 10px;
-    border: 1px solid #999;
+    border: 1px solid #9f80a7;
     background-color: #ece1ee;
+    align-items: center;
 }
 
 textarea {
@@ -42,6 +51,26 @@ textarea {
 
 button {
     text-align: center;
+    font-size: 18px;
+    color: #43061e;
     background-color: #e0435e;
-    margin-left: 18em;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    align-items: center;
+    margin-left: 5em;        
+}
+
+button:hover {
+    background-color: #9f80a7;
+    color: #43061e;
+}
+
+
+#mensage{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: #e0435e;
+    padding-top: 20px;
 }

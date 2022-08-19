@@ -1,8 +1,9 @@
 .projeto {
-    background: #ece1ee;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ece1ee;
     height: 100%;
     width: 100%;
-
 }
 
 .card {
@@ -29,9 +30,11 @@
     font-size: 40px;
     text-align: center;
     color: #43061e;
+    text-shadow: 3px 3px 2px #9f80a7;
 }
 
 #retornar {
+    margin-left: 2.5%;
     list-style: none;
     text-decoration: none;
     color: #43061e;
